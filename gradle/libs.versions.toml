@@ -1,0 +1,13 @@
+[versions]
+revanced-patcher = "22.0.0"
+# Tracking https://github.com/google/smali/issues/64.
+#noinspection GradleDependency
+smali = "3.0.8"
+agp = "8.2.2"
+guava = "33.5.0-jre"
+
+[libraries]
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
+
+[plugins]
+android-library = { id = "com.android.library" }
